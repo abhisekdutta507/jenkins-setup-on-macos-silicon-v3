@@ -1,0 +1,13 @@
+random=33
+echo "\n"
+echo "\n"
+echo " - - - - - START OF LOG - - - - - "
+echo "Hello $(whoami), The clock says: $(date). And the random number is $random."
+echo "USER: $USER"
+echo "HOME: $HOME"
+echo "GIT_BRANCH: $GIT_BRANCH"
+echo "BUILD_ID: $BUILD_ID"
+echo "CI: $CI"
+echo " - - - - - END OF LOG - - - - - "
+echo "\n"
+echo "\n"
